@@ -16,9 +16,9 @@ public class Asignment {
       
         String add;
         add ="E:\\Zip file\\asignment (1)~\\asignment\\src\\asignment\\Electricity.txt";  // change path for another file
-        hmm.readFile(add,3,3); // address,no of states,length of obsevation
-        hmm.forward_algo(3, 3); // in this and below function 1st parameter is no of states and 2nd is length of observation 
-       hmm.viterbi_Algo(3, 3);
+        hmm.readFile(add,3,5); // address,no of states,length of obsevation
+        hmm.forward_algo(3, 5); // in this and below function 1st parameter is no of states and 2nd is length of observation 
+       hmm.viterbi_Algo(3, 5);
         
        
     }
