@@ -135,9 +135,11 @@ public class HMM {
      }
   //For printing alphas 
      System.out.println("Alphas");
-     for(int i=0;i<len;i++)
+     for(int i=0;i<len;i++){
         for(int j=0;j<N;j++)
-              System.out.println(""+alphas[i][j]);
+              System.out.print(alphas[i][j]+" ");
+      System.out.println("");   
+     }
      //For forward probability
     float sum=0;
      int j=alphas.length-1;
@@ -174,9 +176,11 @@ public class HMM {
     }
     // for printing viterbi values
         System.out.println("Viterbi");
-        for(int i=0;i<len;i++)
-          for(int j=0;j<N;j++)
-             System.out.println(""+v[i][j]);
+        for(int i=0;i<len;i++){
+            for(int j=0;j<N;j++)
+               System.out.print(v[i][j]+" ");
+         System.out.println("");   
+        }
      // for printing and finding sequence
      String[] seq = new String[len];
      
