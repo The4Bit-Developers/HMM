@@ -15,10 +15,10 @@ public class Asignment {
         HMM hmm = new HMM();
       
         String add;
-        add ="E:\\Zip file\\asignment (1)~\\asignment\\src\\asignment\\HotCold.txt";  // change path for another file
-        hmm.readFile(add,2,9); // address,no of states,length of obsevation
-        hmm.forward_algo(2, 9); // in this and below function 1st parameter is no of states and 2nd is length of observation 
-       hmm.viterbi_Algo(2, 9);
+        add ="E:\\Zip file\\asignment (1)~\\asignment\\src\\asignment\\Electricity.txt";  // change path for another file
+        hmm.readFile(add,3,3); // address,no of states,length of obsevation
+        hmm.forward_algo(3, 3); // in this and below function 1st parameter is no of states and 2nd is length of observation 
+       hmm.viterbi_Algo(3, 3);
         
        
     }
