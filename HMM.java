@@ -17,8 +17,8 @@ public class HMM {
    Float[] initial;
    Float[][] Trans;
    Float[][] emission;
-   double[] obs={1,2,3};         //this is for hot and cold sequence 
-  // double[] obs ={11.00,12.099,13.00};  // this is for electricity sequence
+   //double[] obs={1,2,3};         //this is for hot and cold sequence 
+   double[] obs ={11.00,12.099,13.00};  // this is for electricity sequence
    double[] seq;
   
    
