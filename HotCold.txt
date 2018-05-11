@@ -1,0 +1,24 @@
+3
+3
+1
+1
+2
+2
+3
+1
+3
+"********* Initial Probabilities ************"
+0.8
+0.2
+"********* Transition Probabilities ***********"
+0.6
+0.3
+0.4
+0.5
+"***** Emission Probabilities ********"
+0.2
+0.4
+0.4
+0.5
+0.4
+0.1
